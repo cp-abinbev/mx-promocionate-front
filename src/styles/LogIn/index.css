@@ -1,0 +1,21 @@
+@layer components {
+  .loginTitle {
+    @apply mx-5 text-3xl font-semibold h-30 w-80 leading-6 font-barlow mt-49;
+  }
+  .loginTitleContainer {
+    @apply mx-5 mt-6 text-base font-normal w-80 h-47 leading-22 font-workSans;
+  }
+  .loginInputContainer {
+    @apply flex flex-col rounded-lg w-317 h-14 bg-gray mt-43 ml-21 mr-22;
+  }
+  .loginInputText {
+    @apply mx-4 mt-2 mb-px text-xs font-semibold font-workSans leading-4;
+  }
+  .loginInput {
+    @apply mx-4 placeholder-black outline-none mb-7 bg-gray font-workSans;
+  }
+
+  .loginButton {
+    @apply mb-10 font-semibold bg-black rounded-full w-318 h-42 text-yellow font-workSans mt-223 ml-23 mr-19;
+  }
+}

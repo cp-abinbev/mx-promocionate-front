@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /*.pdf$
+Sitemap: https://www.promocionate.com.mx/sitemap.xml

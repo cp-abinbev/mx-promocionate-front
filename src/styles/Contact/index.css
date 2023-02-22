@@ -1,0 +1,22 @@
+@layer components {
+  .contactTitle {
+    @apply mx-5 text-3xl font-semibold h-30 w-80 leading-6 font-barlow mt-57;
+  }
+
+  .contactTitleContainer {
+    @apply mx-5 mt-6 text-base font-normal w-80 h-99 leading-22 font-workSans;
+  }
+
+  .contactButton {
+    @apply font-semibold bg-black rounded-full mb-46 w-318 h-42 text-yellow font-workSans mt-11 ml-23 mr-19;
+  }
+
+  .transitionCustom {
+    transition: all .8s;
+  }
+
+  .backdrop {
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(2px);
+  }
+}

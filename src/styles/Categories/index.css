@@ -1,0 +1,9 @@
+@layer components {
+  .categoryTitle {
+    @apply mx-5 text-3xl font-semibold h-30 w-80 leading-6 font-barlow mt-43;
+  }
+
+  .categoryTitleContainer {
+    @apply mx-5 text-base font-normal mt-21 w-80 h-47 mb-28 leading-22 font-workSans;
+  }
+}
