@@ -1,7 +1,7 @@
 name: Deploy s3 Prod
 on:
   push:
-    branches: ["main"]
+    branches: ["dev"]
 jobs:
   run:
     runs-on: ubuntu-latest
